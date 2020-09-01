@@ -22,7 +22,7 @@ class LinkedList:
             
     def get_length(self):
         itr = self.head
-        count = 1
+        count = 0
         while itr:
             itr = itr.Next
             count += 1
